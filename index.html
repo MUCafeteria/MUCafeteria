@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ's Cafeteria - Food Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+        .nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+            padding-bottom: 60px; /* Added padding */
+        }
+        .menu-item {
+            background-color: white;
+            border-radius: 8px;
+            margin: 10px 0;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .menu-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .menu-item h2 {
+            margin-top: 0;
+            display: inline-block;
+            position: relative;
+        }
+        .menu-item .price {
+            float: right;
+            color: #666;
+            margin-left: 10px; /* Adjust this value as needed */
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>EJ's Cafeteria</h1>
+    </div>
+    <div class="nav">
+        <a href="index.html">Food Menu</a>
+        <a href="stationary.html">Stationary</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="container">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h2>Samosa <span class="price">Rs. 40</span></h2>
+            <p>Deliciously spiced and crispy samosas filled with a savory mix of potatoes, peas, and spices.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Spring Rolls <span class="price">Rs. 40</span></h2>
+            <p>Flavorful rolls with a choice of fillings like chicken, beef, or vegetables, wrapped in a soft, flaky pastry.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Bun Kebabs (Small) <span class="price">Rs. 70</span></h2>
+            <p>Juicy and flavorful kebabs served in a soft bun, topped with fresh onions, tomatoes, and a tangy sauce.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Bun Kebabs (Large) <span class="price">Rs. 140</span></h2>
+            <p>Extra-large version of our popular bun kebabs, with more juicy kebab and toppings.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Fries (Small) <span class="price">Rs. 50</span></h2>
+            <p>Crispy and golden fries, seasoned to perfection. Small portion ideal as a side.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Fries (Large) <span class="price">Rs. 100</span></h2>
+            <p>Large portion of crispy, golden fries, perfect for sharing or a big appetite.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Popcorn <span class="price">Rs. 30</span></h2>
+            <p>Lightly salted popcorn, a classic snack for any occasion.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Tea <span class="price">Rs. 60</span></h2>
+            <p>Refreshing tea brewed to perfection. Available in black or green.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Cola <span class="price">Rs. 90</span></h2>
+            <p>Classic cola drink, chilled and ready to refresh you.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Juice <span class="price">Rs. 60</span></h2>
+            <p>Freshly squeezed juice. Choose from orange, apple, or mixed fruit.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Mineral Water <span class="price">Rs. 30</span></h2>
+            <p>Pure and refreshing mineral water to quench your thirst.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Pakola <span class="price">Rs. 50</span></h2>
+            <p>A popular drink with unique flavors. Choose from a variety of options.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Cake Up <span class="price">Rs. 25</span></h2>
+            <p>Delectable cake slices with a variety of flavors. A sweet end to your meal.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 All Rights Reserved</p>
+    </div>
+</body>
+</html>
